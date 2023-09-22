@@ -58,6 +58,13 @@ print('Challenge 4 -------------')
 #length = len(authors_list)
 #print('There are', length,  'favorite authors')
 
+# i = 0
+# while i < length:
+#     print(authors_list[i])
+# length = len(authors_list)
+
+# print('There are', length,  'favorite authors')
+
 
 # Challenge 4 hint: The following lines of code might be helpful, although not
 # necessarily in this order or indentation:
@@ -74,7 +81,8 @@ print('Challenge 5 -------------')
 
 #user_input = input('Stop? ')
 
-
+user_input = input('Stop? ')
+print(user_input)
 
 
 

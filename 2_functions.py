@@ -2,6 +2,8 @@
 
 # Challenge 0: Remember: Do the first thing for any Python activity.
 
+print('Welcome to functions world!')
+
 print('Challenge 1 -------------')
 # Challenge 1:
 # Write the code to "invoke" the function named challenge_1
@@ -9,7 +11,7 @@ print('Challenge 1 -------------')
 def challenge_1():
     print('Hello Functional World!')
 
-
+challenge_1()
 
 print('Challenge 2 -------------')
 # Challenge 2:
@@ -36,8 +38,22 @@ print('Challenge 2 -------------')
 # Func_3()
 # func_4 = ()
 
+def func_1():
+    print("a")
 
+def func_2():
+    print("b")
 
+def func_3():
+    print("c")
+
+def func_4():
+    print("d")
+
+func_1()
+func_2()
+func_3()
+func_4()
 
 
 
