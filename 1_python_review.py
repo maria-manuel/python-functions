@@ -20,7 +20,6 @@ hours_sleep = "8"
 print(name, favorite_color, hours_sleep)
 
 
-
 print('Challenge 2 -------------')
 # Challenge 2:
 # Create a list of your favorite book authors.
@@ -30,8 +29,6 @@ authors_list = ['ferlinghetti',
                 'waltman', 
                 'sparks',]
 print(authors_list)
-
-
 
 
 
