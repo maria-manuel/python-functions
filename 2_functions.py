@@ -56,7 +56,6 @@ func_3()
 func_4()
 
 
-
 print('Challenge 3 -------------')
 # Challenge 3:
 # 1. Uncomment the following code. What does it do?
@@ -73,6 +72,23 @@ print('Challenge 3 -------------')
 # print("And one more time....")
 # name = input('What is your name? ')
 # print("Hi", name)
+
+x = 0
+print("We need to ask your name 3 times.")
+while x < 3:
+    x = x + 1
+    name = input('What is your name? ')
+    print("Hi", name)
+    
+
+# print("Hi", name)
+# name = input('What is your name? ')
+# print("Hi", name)
+# print("And one more time....")
+# name = input('What is your name? ')
+# print("Hi", name)
+
+
 
 
 print('Challenge 4 -------------')
