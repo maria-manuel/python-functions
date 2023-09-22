@@ -39,8 +39,10 @@ print('Challenge 3 -------------')
 
 # Hint: The very first author is accessible with authors_list[0]
 
-
-
+if authors_list == ('Douglas Adams'):
+    print("Don\'t panic!")
+else:
+    print("Panic!")
 
 
 
