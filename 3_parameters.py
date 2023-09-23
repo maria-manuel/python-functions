@@ -35,11 +35,23 @@ print('Challenge 2 -------------')
 #     print(name, ':', 'I promise.', phrase, ', Jack.', phrase)
 
 
-# func_1(name='Rose')
-# func_2 name='Jack', other_name='Rose
-# func_3(item is 'ticket')
-# func_4(name=='Rose', phrase=='I'll never let go')
+def func_1(name=None):
+    print(name, ':', "I can't feel my body")
 
+def func_2(name=None, other_name=None):
+    print(name, ':', other_name, ', listen to me!')
+
+def func_3(quality='best', item='burrito'):
+    print('Winning that', item, 'was the', quality, 'thing.')
+
+def func_4(name=None, phrase=None):
+    print(name, ':', 'I promise.', phrase, ', Jack.', phrase)
+
+
+func_1(name='Rose')
+func_2(name='Jack', other_name='Rose')
+func_3(item='ticket')
+func_4(name='Rose', phrase="I'll never let go")
 
 print('Challenge 3 -------------')
 # Challenge 3:
@@ -50,18 +62,41 @@ print('Challenge 3 -------------')
 # invocations for each one: subtraction, multiplication, division,
 # exponentiation, and modulus
 
+# def addition(a=0, b=0):
+#     print(a + b)
+# addition(a=10, b=15)
+
 def addition(a=0, b=0):
     print(a + b)
 
-# addition(a=10, b=15)
+addition(a=10, b=15)
 
+addition(a=22, b=11)
 
+def subtraction(a=0, b=0):
+    print(a - b)
 
+subtraction(a=22, b=12)
 
+def multiplication(a=0, b=0):
+    print(a * b)
 
+multiplication(a=22, b=12)
 
+def division(a=0, b=0):
+    print(a / b)
 
+division(a=22, b=12)
 
+def exponents(a=0, b=0):
+    print(a ** b)
+
+exponents(a=22, b=12)
+
+def modulus(a=0, b=0):
+    print(a % b)
+
+modulus(a=22, b=12)
 
 print('Challenge 4 -------------')
 # Challenge 4:
@@ -75,6 +110,7 @@ print('Challenge 4 -------------')
 # HINT: You'll use "while", "input", and the "in" operator or the "not in"
 # operator (for checking inclusion within the list)
 
+def asker(acceptable_options=None):
 
 
 
