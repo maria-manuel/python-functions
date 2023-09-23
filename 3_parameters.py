@@ -2,6 +2,8 @@
 
 # Challenge 0: Remember: Do the first thing for any Python activity.
 
+print("Hello parameter world!")
+
 print('Challenge 1 -------------')
 # Challenge 1:
 # Write the code to "invoke" the function named challenge_1, providing your
@@ -10,6 +12,7 @@ print('Challenge 1 -------------')
 def challenge_1(name=None):
     print('Hello', name, '!')
 
+challenge_1('Maria')
 
 
 print('Challenge 2 -------------')

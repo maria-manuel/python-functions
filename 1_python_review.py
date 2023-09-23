@@ -83,16 +83,16 @@ print('Challenge 5 -------------')
 #user_input = input('Should I stop? ')
 
 x = 'yes'
-while user_input == x:
+while user_input != x:
     user_input = input('Should I stop? ')
     print(user_input)
 
-x = 0
-print("We need to ask your name 3 times.")
-while x < 3:
-    x = x + 1
-    name = input('What is your name? ')
-    print("Hi", name)
+# x = 0
+# print("We need to ask your name 3 times.")
+# while x < 3:
+#     x = x + 1
+#     name = input('What is your name? ')
+#     print("Hi", name)
     
 
 

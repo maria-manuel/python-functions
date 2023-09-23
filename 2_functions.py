@@ -84,7 +84,7 @@ print('Challenge 3 -------------')
 ## Instructor Answer below ##
 
 def ask_name():
-    name = input("What is your name?")
+    name = input("What is your name? ")
     print("Hi", name)
 
 print("We need to ask your name 3 times.")
