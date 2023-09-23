@@ -73,12 +73,25 @@ print('Challenge 3 -------------')
 # name = input('What is your name? ')
 # print("Hi", name)
 
-x = 0
-print("We need to ask your name 3 times.")
-while x < 3:
-    x = x + 1
-    name = input('What is your name? ')
+## MM Answer below ##
+# x = 0
+# print("We need to ask your name 3 times.")
+# while x < 3:
+#     x = x + 1
+#     name = input('What is your name? ')
+#     print("Hi", name)
+
+## Instructor Answer below ##
+
+def ask_name():
+    name = input("What is your name?")
     print("Hi", name)
+
+print("We need to ask your name 3 times.")
+ask_name()
+ask_name()
+print("And one more time....")
+ask_name()
     
 
 print('Challenge 4 -------------')

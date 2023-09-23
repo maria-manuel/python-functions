@@ -60,7 +60,8 @@ print('Challenge 4 -------------')
 
 # i = 0
 # while i < length:
-#     print(authors_list[i])
+#    i = i + 1
+#    print(authors_list[i])
 # length = len(authors_list)
 
 # print('There are', length,  'favorite authors')
@@ -77,12 +78,22 @@ print('Challenge 5 -------------')
 # Challenge 5:
 # 1. Uncomment the provided code. What does it do?
 # 2. Using this a start, create a while loop that keeps on looping until the
-# user says "Stop". Have it print back whatever they say each time it loops.
+# user says "yes". Have it print back whatever they say each time it loops.
 
-#user_input = input('Stop? ')
+#user_input = input('Should I stop? ')
 
-user_input = input('Stop? ')
-print(user_input)
+x = 'yes'
+while user_input == x:
+    user_input = input('Should I stop? ')
+    print(user_input)
+
+x = 0
+print("We need to ask your name 3 times.")
+while x < 3:
+    x = x + 1
+    name = input('What is your name? ')
+    print("Hi", name)
+    
 
 
 
