@@ -81,16 +81,6 @@ while x < 3:
     print("Hi", name)
     
 
-# print("Hi", name)
-# name = input('What is your name? ')
-# print("Hi", name)
-# print("And one more time....")
-# name = input('What is your name? ')
-# print("Hi", name)
-
-
-
-
 print('Challenge 4 -------------')
 # Challenge 4:
 # 1. Uncomment the following code. Inspect it closely. What does it do?
@@ -122,6 +112,42 @@ print('Challenge 4 -------------')
 #     else:
 #         bathroom()
 
+def bedroom():
+    print('You are in a bedroom. A window is open and the sun is shining in.')
+    print('There is a cell phone, resting on top of a chest of drawers.')
+    print('north: Hallway')
+    print('south: Bathroom')
+    choice = input('? ')
+    if choice == 'north':
+        hallway()
+    elif choice == 'south':
+        bathroom()
+    else:
+        bedroom()
+
+def bathroom():
+    print('You are in a small bathroom. Everything is sparkling clean, except')
+    print('there is toothpaste smeared on the counter. One small window lets')
+    print('a bright beam of sunshine in.')
+    print('north: Bedroom')
+    choice = input('? ')
+    if choice == 'north':
+        bedroom()
+    else:
+        bathroom()
+
+def hallway():
+    print('You are in the patio. It smells like fresh grass.')
+    print('There is a small dusty bench on the side.')
+    print('A barn sits accross the field')
+    print('north: Bedroom')
+    choice = input('? ')
+    if choice == 'north':
+        bedroom()
+    else:
+        bathroom()
+
+bedroom()
 
 print('-------------')
 # Bonus Challenge:
