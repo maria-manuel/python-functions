@@ -115,8 +115,8 @@ def asker(acceptable_options=None):
     
     user_input = None
     while user_input not in acceptable_options:
-        print(acceptable_options)
         user_input = input('When will we meet? ')
+        print(acceptable_options)
 
 a_list=[
     'today',
