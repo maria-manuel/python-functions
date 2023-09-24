@@ -20,6 +20,7 @@ hours_sleep = "8"
 print(name, favorite_color, hours_sleep)
 
 
+
 print('Challenge 2 -------------')
 # Challenge 2:
 # Create a list of your favorite book authors.
@@ -58,19 +59,25 @@ print('Challenge 4 -------------')
 #length = len(authors_list)
 #print('There are', length,  'favorite authors')
 
-# i = 0
-# while i < length:
-#    i = i + 1
-#    print(authors_list[i])
-# length = len(authors_list)
-
-# print('There are', length,  'favorite authors')
-
-
 # Challenge 4 hint: The following lines of code might be helpful, although not
 # necessarily in this order or indentation:
 #          i = i + 1
 #          while i < length:
+
+## Answer MM ##
+# i = 0
+# length = len(authors_list)
+# print('There are', length,  'favorite authors')
+# while i < length:
+#     i = i + 1
+#     print(authors_list[i])
+
+## Answer MB ##
+i = 0
+length = len(authors_list)
+while i < length:
+    print(i, authors_list[i])
+    i += 1
 
 
 

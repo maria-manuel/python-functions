@@ -2,6 +2,8 @@
 
 # Challenge 0: Remember: Do the first thing for any Python activity.
 
+print('Hello return world!')
+
 print('Challenge 1 -------------')
 # Challenge 1:
 # The following function and invocation have some typos and mistakes. Uncomment
