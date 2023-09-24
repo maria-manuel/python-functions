@@ -110,19 +110,21 @@ print('Challenge 4 -------------')
 # HINT: You'll use "while", "input", and the "in" operator or the "not in"
 # operator (for checking inclusion within the list)
 
+
 def asker(acceptable_options=None):
+    
+    user_input = None
+    while user_input not in acceptable_options:
+        print(acceptable_options)
+        user_input = input('When will we meet? ')
 
+a_list=[
+    'today',
+    'tomorrow',
+    'never',
+]
 
-while
-
-input
-
-
-
-
-
-
-
+asker(a_list)
 
 
 
